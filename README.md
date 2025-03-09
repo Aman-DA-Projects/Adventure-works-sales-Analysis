@@ -1,5 +1,5 @@
 # Adventure-works-sales-Analysis
-
+ 
 
 ## Project Overview
  This project involves analyzing the sales data of Adventure works, a fictional bicycle manufacturing company to identify revenue trends, customer behavior and product performance using PowerBI. The objective of this project are:
@@ -48,6 +48,8 @@ o Q1 and Q2 contributed 19% and 26%, respectively.
 o Total profit: $12.08M, with highest profits in 2013 (7M).
 o 2013 had the highest cost ($9.6M), but revenue justified it.
 o 2010 had minimal sales, indicating early-stage operations
+
+
 
 
 ![Screenshot (307)](https://github.com/user-attachments/assets/338f8149-5b60-435b-b6f1-46628613f42f)

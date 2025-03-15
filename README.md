@@ -5,7 +5,9 @@
  This project involves analyzing the sales data of Adventure works, a fictional bicycle manufacturing company to identify revenue trends, customer behavior and product performance using PowerBI. The objective of this project are:
  
 o Identify overall sales performance.
+
 o Analyze Monthly , Quarterly and Revenue trends.
+
 o Examine customer purchase behavior
 
 ## Dataset

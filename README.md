@@ -42,16 +42,25 @@ o Lookup the Customerfullname from the customer sheet and unit price fom product
 
 o Calculate the following fields from the order datekey field ( first create a date field from orderdatekey)
 1 Year
+
 2 Monthno
+
 3 MonthfullName
+
 4 Quarter(Q1,Q2,Q3,Q4)
+
 5 YearMonth (YYYY-MMM)
+
 6 Weekday no 
+
 7 Weekday name
+
 8 Financial month
+
 9 Financial Quarter
 
 o Calculate the Profit
+
 o Create a Bar chart to show year wise sales
 
 o Create a line chart to show Month wise sales

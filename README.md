@@ -32,6 +32,40 @@ o Handling missing values.
 
 o Data loading and inspection.
 
+ 
+## Exploratory Data Analysis
+o Union of Fact internet sales and Fact internet sales new
+
+o Lookup the Product name from the product sheet to sales sheet
+
+o Lookup the Customerfullname from the customer sheet and unit price fom product sheet to sales sheet
+
+o Calculate the following fields from the order datekey field ( first create a date field from orderdatekey)
+1 Year
+2 Monthno
+3 MonthfullName
+4 Quarter(Q1,Q2,Q3,Q4)
+5 YearMonth (YYYY-MMM)
+6 Weekday no 
+7 Weekday name
+8 Financial month
+9 Financial Quarter
+
+o Calculate the Profit
+o Create a Bar chart to show year wise sales
+
+o Create a line chart to show Month wise sales
+
+o Create a Pie chart to show Quarter wise sales
+
+o Create a combinational chart (bar and line)to show salesamount and production cost together
+
+o Build additional kpi/ charts for performance by Products,Customers, Region
+
+create a one dashboard based on the requirement
+
+![Screenshot (307)](https://github.com/user-attachments/assets/338f8149-5b60-435b-b6f1-46628613f42f)
+
 ## Key insights from the Dashboard
  📊 Sales Performance
  
@@ -76,4 +110,4 @@ o 2010 had minimal sales, indicating early-stage operations
 
 
 
-![Screenshot (307)](https://github.com/user-attachments/assets/338f8149-5b60-435b-b6f1-46628613f42f)
+

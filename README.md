@@ -23,6 +23,7 @@ o MySQL: Data management, collected processed and analyze large dataset.
 o PowerBI: Create reports and Interactive Dashboards.
 
 ## Data Cleaning / Preparation
+
 In the initial data preparation phase, we performed the following tasks:
 
 o Data transform and clean data append queries,merge column,sort and filtering the data.
@@ -33,6 +34,7 @@ o Data loading and inspection.
 
 ## Key insights from the Dashboard
  📊 Sales Performance
+ 
 o Total Sales Amount: $29.36M
 
 o Total Product Cost: $17.28M
@@ -42,11 +44,13 @@ o Total Orders Processed: 60K
 o Total Profit: $12.08M
 
  📅 Monthly & Quarterly Sales Trends
+ 
 o Highest sales Month: October (~$2.9M)
 
 o Lowest Sales Month: April (~$1.48M)
 
 Quarterly Sales Distribution:
+
 o Q4 (31%) had the highest sales, indicating strong year-end demand.
 
 o Q3 (24%) followed as the second-best quarter.
@@ -54,6 +58,7 @@ o Q3 (24%) followed as the second-best quarter.
 o Q1 and Q2 contributed 19% and 26%, respectively.
 
 📈 Yearly Sales Trends
+
  o 2013 was the highest revenue year with $16.4M in sales.
  
  o 2011 & 2012 showed moderate sales growth, but 2013 had a massive spike.

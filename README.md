@@ -1,5 +1,22 @@
 # Adventure-works-sales-Analysis
- 
+
+# Table of contents
+
+   o Project Overview
+
+   o Data source 
+
+   o Tools
+
+   o Data Preparation 
+
+   o Exploratory Data analysis
+
+   o Insights
+
+   o Recomendations
+
+   o Dashboards
 
 ## Project Overview
  This project involves analyzing the sales data of Adventure works, a fictional bicycle manufacturing company to identify revenue trends, customer behavior and product performance using PowerBI. The objective of this project are:
@@ -11,29 +28,33 @@ o Analyze Monthly , Quarterly and Revenue trends.
 o Examine customer purchase behavior
 
 ## Dataset
-o Source: C:\Users\pc\Downloads\Adventure works sales 
+
+o Source: 'Adventure works sales'
 
 o Table used: Sales, Customer, Products and Regions.
 
-## Tools and Technoligies Used
+## Tools and Technologies Used
+
 o Excel: Data Cleaning 
 
 o MySQL: Data management, collected processed and analyze large dataset.
 
 o PowerBI: Create reports and Interactive Dashboards.
 
-## Data Cleaning / Preparation
+## Data Preparation
 
 In the initial data preparation phase, we performed the following tasks:
 
-o Data transform and clean data append queries,merge column,sort and filtering the data.
+o Data loading and inspection.
 
 o Handling missing values.
 
-o Data loading and inspection.
+o Data transform and clean data append queries,merge column,sort and filtering the data.
 
+o Caculate a dax formula.
  
 ## Exploratory Data Analysis
+
 o Union of Fact internet sales and Fact internet sales new
 
 o Lookup the Product name from the product sheet to sales sheet
@@ -41,6 +62,7 @@ o Lookup the Product name from the product sheet to sales sheet
 o Lookup the Customerfullname from the customer sheet and unit price fom product sheet to sales sheet
 
 o Calculate the following fields from the order datekey field ( first create a date field from orderdatekey)
+
 1 Year
 
 2 Monthno
@@ -73,50 +95,65 @@ o Build additional kpi/ charts for performance by Products,Customers, Region
 
 create a one dashboard based on the requirement
 
-![Screenshot (307)](https://github.com/user-attachments/assets/338f8149-5b60-435b-b6f1-46628613f42f)
 
 ## Key insights from the Dashboard
- 📊 Sales Performance
- 
-o Total Sales Amount: $29.36M
 
-o Total Product Cost: $17.28M
+  # Overall Sales Performance
 
-o Total Orders Processed: 60K
+    Total Sales Amount: 29.36M
 
-o Total Profit: $12.08M
+    Total Product Cost: 17.28M
 
- 📅 Monthly & Quarterly Sales Trends
- 
-o Highest sales Month: October (~$2.9M)
+    Total Orders: 60K
 
-o Lowest Sales Month: April (~$1.48M)
+    Profit: 12.08M (Sales - Product Cost), indicating a good profit margin.
 
-Quarterly Sales Distribution:
+  # Month-wise Sales Trends
 
-o Q4 (31%) had the highest sales, indicating strong year-end demand.
+     Sales peak in September (2.53M) and October (2.91M), suggesting seasonal demand.
 
-o Q3 (24%) followed as the second-best quarter.
+     The lowest sales month is January (1.68M), potentially indicating a post-holiday sales dip.
 
-o Q1 and Q2 contributed 19% and 26%, respectively.
+     A steady upward trend is observed after February, with sales peaking in Q4.
 
-📈 Yearly Sales Trends
+  # Quarter-wise Sales Distribution
 
- o 2013 was the highest revenue year with $16.4M in sales.
- 
- o 2011 & 2012 showed moderate sales growth, but 2013 had a massive spike.
- 
- o Product costs increased significantly in 2013, possibly due to expansion or increased demand.
+     Q4 (31%) contributes the most revenue (9.11M).
 
- 📌 Profitability & Cost Analysis
+     Q3 (24%) and Q2 (26%) show balanced sales trends.
 
-o Total profit: $12.08M, with highest profits in 2013 (7M).
+     Q1 (19%) has the lowest sales, possibly due to slow business activity in the first quarter.
 
-o 2013 had the highest cost ($9.6M), but revenue justified it.
+  # Year-wise Sales Trends
 
-o 2010 had minimal sales, indicating early-stage operations
+     Sales peaked in 2013 (16.4M), with the highest profitability.
+
+     2011 and 2012 show steady growth, while 2010 had the lowest sales (7.1M).
+
+     2014 data is incomplete or missing, suggesting data collection stopped or a business shift occurred.
+
+  # Sales Amount vs. Product Cost (Yearly)
+
+     2013 had the highest sales (16.4M) and the highest cost (9.6M), meaning higher expenses but also higher revenue.
+
+     2012 had lower sales (5.8M) and lower costs (3.4M), indicating a less profitable year.
+
+     Profitability increased significantly over the years, showing a positive business trend.
+
+  # Key Takeaways & Recommendations
+
+     ✔ Q4 (October-December) drives the highest sales, so marketing and promotions should be focused here.
+     
+     ✔ Q1 sales are lower, suggesting a need for off-season promotions or discounts.
+     
+    ✔ 2013 was the best year for sales, and understanding the factors behind its success could help replicate growth.
+    
+     ✔ Product cost management is key since high costs in some years reduced profitability.
+     
+     ✔ Increasing sales in slow months like January & February could improve revenue stability
 
 
+![Screenshot (307)](https://github.com/user-attachments/assets/338f8149-5b60-435b-b6f1-46628613f42f)
 
 
-
+![Screenshot (307)](https://github.com/user-attachments/assets/338f8149-5b60-435b-b6f1-46628613f42f)

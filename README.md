@@ -8,9 +8,9 @@
 
    o Tools
 
-   o Data Preparation 
-
    o Stakeholders
+
+   o Data Preparation 
 
    o Insights
 
@@ -41,17 +41,6 @@ o MySQL: Data management, collected processed and analyze large dataset.
 
 o PowerBI: Create reports and Interactive Dashboards.
 
-## Data Preparation
-
-In the initial data preparation phase, we performed the following tasks:
-
-o Data loading and inspection.
-
-o Handling missing values.
-
-o Data transform and clean data append queries,merge column,sort and filtering the data.
-
-o Caculate a dax formula.
  
 ## Stakeholders
 
@@ -95,6 +84,17 @@ o Build additional kpi/ charts for performance by Products,Customers, Region
 
 create a one dashboard based on the requirement
 
+## Data Preparation
+
+In the initial data preparation phase, we performed the following tasks:
+
+o Data loading and inspection.
+
+o Handling missing values.
+
+o Data transform and clean data append queries,merge column,sort and filtering the data.
+
+o Caculate a dax formula.
 
 ## Key insights from the Dashboard
 

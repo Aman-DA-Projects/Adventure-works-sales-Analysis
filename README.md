@@ -10,7 +10,7 @@
 
    o Data Preparation 
 
-   o Exploratory Data analysis
+   o Stakeholders
 
    o Insights
 
@@ -53,7 +53,7 @@ o Data transform and clean data append queries,merge column,sort and filtering t
 
 o Caculate a dax formula.
  
-## Exploratory Data Analysis
+## Stakeholders
 
 o Union of Fact internet sales and Fact internet sales new
 
